@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIO-GLIDE - Revolutionizing Sanitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <div class="logo-icon">🌱</div>
+                    <span class="logo-text">BIO-GLIDE</span>
+                </div>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#use-cases" class="nav-link">Use Cases</a>
+                <a href="#shop" class="nav-link">Shop</a>
+                <a href="#impact" class="nav-link">Impact</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="badge-icon">✓</span>
+                        <span>Next-Generation Bio-Toilet Technology</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span>Revolutionizing</span>
+                        <span class="gradient-text">Sanitation</span>
+                        <span>with BIO-GLIDE</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Transforming waste into water and methane through advanced anaerobic digestion. 
+                        Eco-friendly, maintenance-free, and designed for Indian Railways and households.
+                    </p>
+                    
+                    <div class="hero-benefits">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Zero Water Usage</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Maintenance-Free</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Methane Generation</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">✓</span>
+                            <span>Railway Compatible</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('about')">
+                            <span>Learn More</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('shop')">
+                            <span>Buy Now</span>
+                            <span class="btn-icon">▶</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="product-showcase">
+                        <div class="product-card">
+                            <div class="product-icon">BG</div>
+                            <h3>BIO-GLIDE System</h3>
+                            <p>Advanced anaerobic digestion technology converting organic waste into clean water and methane gas</p>
+                            
+                            <div class="process-indicators">
+                                <div class="indicator">
+                                    <div class="indicator-dot red"></div>
+                                    <span>Waste In</span>
+                                </div>
+                                <div class="indicator">
+                                    <div class="indicator-dot yellow animate-pulse"></div>
+                                    <span>Processing</span>
+                                </div>
+                                <div class="indicator">
+                                    <div class="indicator-dot green"></div>
+                                    <span>Clean Output</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="floating-stat stat-1">99.9% Efficient</div>
+                        <div class="floating-stat stat-2">Zero Maintenance</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span class="gradient-text">BIO-GLIDE</span></h2>
+                <p>BIO-GLIDE represents a breakthrough in sustainable sanitation technology, specifically engineered for Indian Railways and households. Our innovative bio-toilet system contributes directly to the Swachh Bharat mission while generating valuable by-products.</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>To revolutionize sanitation infrastructure across India by providing eco-friendly, maintenance-free bio-toilet solutions that convert organic waste into clean water and methane through advanced anaerobic digestion technology.</p>
+                    
+                    <div class="how-it-works-box">
+                        <h4>🌱 How It Works</h4>
+                        <p>BIO-GLIDE utilizes anaerobic digestion - a natural biological process where microorganisms break down organic matter in the absence of oxygen. This process converts human waste into clean water and methane gas, eliminating odors and creating valuable by-products.</p>
+                    </div>
+                </div>
+                
+                <div class="process-flow">
+                    <h4>Anaerobic Digestion Process</h4>
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number red">1</div>
+                            <div class="step-content">
+                                <h5>Waste Collection</h5>
+                                <p>Organic waste enters the anaerobic chamber</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number yellow">2</div>
+                            <div class="step-content">
+                                <h5>Bacterial Breakdown</h5>
+                                <p>Microorganisms digest organic matter</p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number green">3</div>
+                            <div class="step-content">
+                                <h5>Clean Output</h5>
+                                <p>Produces clean water and methane gas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="impact-stats">
+                <div class="stat-item">
+                    <div class="stat-icon">🎯</div>
+                    <div class="stat-value">99.9%</div>
+                    <div class="stat-label">Waste Processing Efficiency</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🏆</div>
+                    <div class="stat-value">15+</div>
+                    <div class="stat-label">Years Operational Life</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-value">1M+</div>
+                    <div class="stat-label">People Served</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">🌱</div>
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Eco-Friendly Solution</div>
+                </div>
+            </div>
+            
+            <div class="swachh-bharat">
+                <h3>Contributing to <span class="orange-text">Swachh Bharat</span></h3>
+                <p>BIO-GLIDE directly supports India's Swachh Bharat (Clean India) mission by providing sustainable sanitation solutions that eliminate open defecation, reduce water pollution, and create clean, hygienic environments for communities across the country.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Product <span class="gradient-text">Features</span></h2>
+                <p>BIO-GLIDE combines cutting-edge technology with practical design to deliver unmatched performance in bio-toilet solutions.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon green">🌱</div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Zero chemical usage, completely biodegradable process with minimal environmental impact.</p>
+                    <ul class="feature-benefits">
+                        <li>No harmful chemicals</li>
+                        <li>Biodegradable process</li>
+                        <li>Carbon neutral</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon blue">🔧</div>
+                    <h3>Maintenance-Free</h3>
+                    <p>Self-sustaining system requiring minimal intervention for up to 15 years.</p>
+                    <ul class="feature-benefits">
+                        <li>No daily cleaning</li>
+                        <li>Self-regulating</li>
+                        <li>15+ year lifespan</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon purple">🚆</div>
+                    <h3>Railway Compatible</h3>
+                    <p>Specifically designed for Indian Railways with vibration resistance and compact design.</p>
+                    <ul class="feature-benefits">
+                        <li>Vibration resistant</li>
+                        <li>Compact footprint</li>
+                        <li>Railway approved</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon emerald">💰</div>
+                    <h3>Low Installation Cost</h3>
+                    <p>Affordable upfront investment with significant long-term savings on maintenance.</p>
+                    <ul class="feature-benefits">
+                        <li>Competitive pricing</li>
+                        <li>Low operating costs</li>
+                        <li>Quick ROI</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon orange">⏰</div>
+                    <h3>Long Lifespan</h3>
+                    <p>Engineered for durability with 15+ years of reliable operation.</p>
+                    <ul class="feature-benefits">
+                        <li>Durable materials</li>
+                        <li>Weather resistant</li>
+                        <li>Proven longevity</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon red">⚡</div>
+                    <h3>Methane By-Product</h3>
+                    <p>Generates methane gas that can be used for cooking or electricity generation.</p>
+                    <ul class="feature-benefits">
+                        <li>Energy generation</li>
+                        <li>Cooking fuel</li>
+                        <li>Additional revenue</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="key-advantages">
+                <h3>Why Choose BIO-GLIDE?</h3>
+                <p>Our advanced bio-toilet system offers unparalleled advantages over traditional sanitation solutions.</p>
+                <div class="advantages-stats">
+                    <div class="advantage-stat">
+                        <div class="stat-value">99.9%</div>
+                        <div class="stat-label">Efficiency Rate</div>
+                    </div>
+                    <div class="advantage-stat">
+                        <div class="stat-value">0</div>
+                        <div class="stat-label">Water Usage</div>
+                    </div>
+                    <div class="advantage-stat">
+                        <div class="stat-value">15+</div>
+                        <div class="stat-label">Years Lifespan</div>
+                    </div>
+                    <div class="advantage-stat">
+                        <div class="stat-value">50%</div>
+                        <div class="stat-label">Cost Savings</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How <span class="gradient-text">It Works</span></h2>
+                <p>Understanding the anaerobic digestion process that powers BIO-GLIDE's innovative waste-to-resource transformation.</p>
+            </div>
+            
+            <div class="process-flow-diagram">
+                <div class="process-step-card">
+                    <div class="step-number-large red">1</div>
+                    <div class="step-icon">🚽</div>
+                    <h3>Waste Collection</h3>
+                    <p>Organic waste enters the sealed anaerobic digestion chamber through the toilet unit.</p>
+                </div>
+                
+                <div class="process-arrow">→</div>
+                
+                <div class="process-step-card">
+                    <div class="step-number-large yellow">2</div>
+                    <div class="step-icon">🦠</div>
+                    <h3>Bacterial Action</h3>
+                    <p>Specialized anaerobic bacteria break down organic matter in an oxygen-free environment.</p>
+                </div>
+                
+                <div class="process-arrow">→</div>
+                
+                <div class="process-step-card">
+                    <div class="step-number-large blue">3</div>
+                    <div class="step-icon">💨</div>
+                    <h3>Gas Generation</h3>
+                    <p>The digestion process produces biogas (methane) which can be captured and used as fuel.</p>
+                </div>
+                
+                <div class="process-arrow">→</div>
+                
+                <div class="process-step-card">
+                    <div class="step-number-large green">4</div>
+                    <div class="step-icon">💧</div>
+                    <h3>Water Purification</h3>
+                    <p>Liquid waste is naturally purified through biological processes, producing clean water.</p>
+                </div>
+            </div>
+            
+            <div class="output-benefits">
+                <h3>Final Output Benefits</h3>
+                <p>The anaerobic digestion process produces valuable by-products that benefit both the environment and users.</p>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon blue">💧</div>
+                        <h4>Clean Water</h4>
+                        <ul>
+                            <li>✓ Safe for irrigation and non-potable uses</li>
+                            <li>✓ Meets environmental discharge standards</li>
+                            <li>✓ Odorless and pathogen-free</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-icon orange">⚡</div>
+                        <h4>Methane Gas</h4>
+                        <ul>
+                            <li>✓ Can be used for cooking and heating</li>
+                            <li>✓ Electricity generation potential</li>
+                            <li>✓ Additional income source</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="use-cases" class="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <h2>Use <span class="gradient-text">Cases</span></h2>
+                <p>BIO-GLIDE serves diverse applications across India, from railway systems to rural households, providing sustainable sanitation solutions for every community.</p>
+            </div>
+            
+            <div class="use-cases-grid">
+                <div class="use-case-card blue">
+                    <div class="use-case-header">
+                        <div class="use-case-icon">🚆</div>
+                        <div class="use-case-info">
+                            <h3>Indian Railways</h3>
+                            <div class="use-case-stats">
+                                <span>5000+ Installed</span>
+                                <span>•</span>
+                                <span>50+ Routes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="use-case-content">
+                        <p>Specifically designed for railway coaches and stations with vibration resistance and compact design.</p>
+                        <div class="use-case-features">
+                            <div class="feature-item">• Vibration resistant design</div>
+                            <div class="feature-item">• Compact footprint for coaches</div>
+                            <div class="feature-item">• Low maintenance requirements</div>
+                            <div class="feature-item">• Railway ministry approved</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="use-case-card green">
+                    <div class="use-case-header">
+                        <div class="use-case-icon">🏠</div>
+                        <div class="use-case-info">
+                            <h3>Rural Households</h3>
+                            <div class="use-case-stats">
+                                <span>25000+ Installed</span>
+                                <span>•</span>
+                                <span>200+ Villages</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="use-case-content">
+                        <p>Affordable bio-toilet solutions for rural homes, promoting hygiene and eliminating open defecation.</p>
+                        <div class="use-case-features">
+                            <div class="feature-item">• Easy installation</div>
+                            <div class="feature-item">• Family-sized capacity</div>
+                            <div class="feature-item">• Methane for cooking</div>
+                            <div class="feature-item">• Water conservation</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="use-case-card purple">
+                    <div class="use-case-header">
+                        <div class="use-case-icon">🏫</div>
+                        <div class="use-case-info">
+                            <h3>Schools & Institutions</h3>
+                            <div class="use-case-stats">
+                                <span>1500+ Installed</span>
+                                <span>•</span>
+                                <span>15+ States</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="use-case-content">
+                        <p>Hygienic sanitation for educational institutions with capacity for high daily usage.</p>
+                        <div class="use-case-features">
+                            <div class="feature-item">• High capacity systems</div>
+                            <div class="feature-item">• Educational value</div>
+                            <div class="feature-item">• Safe for children</div>
+                            <div class="feature-item">• Minimal supervision needed</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="use-case-card orange">
+                    <div class="use-case-header">
+                        <div class="use-case-icon">🏢</div>
+                        <div class="use-case-info">
+                            <h3>Public Toilets</h3>
+                            <div class="use-case-stats">
+                                <span>3000+ Installed</span>
+                                <span>•</span>
+                                <span>100+ Cities</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="use-case-content">
+                        <p>Robust solutions for high-traffic public facilities in urban and semi-urban areas.</p>
+                        <div class="use-case-features">
+                            <div class="feature-item">• Heavy-duty construction</div>
+                            <div class="feature-item">• Vandal resistant</div>
+                            <div class="feature-item">• Remote monitoring</div>
+                            <div class="feature-item">• Easy maintenance access</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="success-stories">
+                <h3>Success Stories</h3>
+                <p>BIO-GLIDE has successfully transformed sanitation across various sectors, contributing to a cleaner, healthier India.</p>
+                <div class="success-stats">
+                    <div class="success-stat">
+                        <div class="stat-value">34,500+</div>
+                        <div class="stat-label">Total Installations</div>
+                    </div>
+                    <div class="success-stat">
+                        <div class="stat-value">2.5M+</div>
+                        <div class="stat-label">People Served Daily</div>
+                    </div>
+                    <div class="success-stat">
+                        <div class="stat-value">28</div>
+                        <div class="stat-label">States Covered</div>
+                    </div>
+                    <div class="success-stat">
+                        <div class="stat-value">95%</div>
+                        <div class="stat-label">User Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <div class="container">
+            <div class="section-header">
+                <h2>Shop & <span class="gradient-text">Pricing</span></h2>
+                <p>Choose the BIO-GLIDE package that best fits your needs. All packages include installation support and comprehensive warranties.</p>
+            </div>
+            
+            <div class="pricing-packages">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Household Package</h3>
+                        <div class="package-price">₹45,000</div>
+                        <div class="package-capacity">4-6 people</div>
+                        <p>Perfect for rural households and small families</p>
+                    </div>
+                    <div class="package-features">
+                        <div class="feature">✓ Complete bio-toilet system</div>
+                        <div class="feature">✓ Installation kit included</div>
+                        <div class="feature">✓ 2-year warranty</div>
+                        <div class="feature">✓ User manual & training</div>
+                        <div class="feature">✓ Maintenance support</div>
+                    </div>
+                    <button class="btn btn-outline">Select Package</button>
+                </div>
+                
+                <div class="package-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="package-header">
+                        <h3>Community Package</h3>
+                        <div class="package-price">₹1,25,000</div>
+                        <div class="package-capacity">20-30 people</div>
+                        <p>Ideal for schools, community centers, and small institutions</p>
+                    </div>
+                    <div class="package-features">
+                        <div class="feature">✓ High-capacity system</div>
+                        <div class="feature">✓ Professional installation</div>
+                        <div class="feature">✓ 3-year warranty</div>
+                        <div class="feature">✓ Training for operators</div>
+                        <div class="feature">✓ Priority support</div>
+                        <div class="feature">✓ Remote monitoring</div>
+                    </div>
+                    <button class="btn btn-primary">Select Package</button>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Railway Package</h3>
+                        <div class="package-price">₹85,000</div>
+                        <div class="package-capacity">Railway coach</div>
+                        <p>Specifically designed for Indian Railways applications</p>
+                    </div>
+                    <div class="package-features">
+                        <div class="feature">✓ Vibration-resistant design</div>
+                        <div class="feature">✓ Compact footprint</div>
+                        <div class="feature">✓ 5-year warranty</div>
+                        <div class="feature">✓ Railway compliance</div>
+                        <div class="feature">✓ Specialized installation</div>
+                        <div class="feature">✓ 24/7 support</div>
+                    </div>
+                    <button class="btn btn-outline">Select Package</button>
+                </div>
+            </div>
+            
+            <div class="inquiry-form-section">
+                <h3>Get a Quote</h3>
+                <p>Fill out the form below and our team will contact you with a detailed quote and installation timeline.</p>
+                
+                <form class="inquiry-form" id="inquiryForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="organization">Organization</label>
+                            <input type="text" id="organization" name="organization" placeholder="Company/Organization name">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="packageType">Package Type</label>
+                            <select id="packageType" name="packageType">
+                                <option value="household">Household Package</option>
+                                <option value="community">Community Package</option>
+                                <option value="railway">Railway Package</option>
+                                <option value="custom">Custom Solution</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">Quantity</label>
+                            <input type="number" id="quantity" name="quantity" min="1" value="1" placeholder="Number of units">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Additional Requirements</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your specific requirements, location, timeline, etc."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-large">Submit Inquiry</button>
+                </form>
+            </div>
+            
+            <div class="contact-options">
+                <div class="contact-option green">
+                    <div class="contact-icon">📞</div>
+                    <h4>Call Us</h4>
+                    <div class="contact-info">+91-9876543210</div>
+                    <div class="contact-desc">Mon-Sat, 9AM-6PM IST</div>
+                </div>
+                <div class="contact-option blue">
+                    <div class="contact-icon">📧</div>
+                    <h4>Email Us</h4>
+                    <div class="contact-info">sales@bio-glide.in</div>
+                    <div class="contact-desc">Response within 24 hours</div>
+                </div>
+                <div class="contact-option purple">
+                    <div class="contact-icon">📍</div>
+                    <h4>Visit Us</h4>
+                    <div class="contact-info">New Delhi, India</div>
+                    <div class="contact-desc">Schedule an appointment</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="impact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Environmental & Social <span class="gradient-text">Impact</span></h2>
+                <p>BIO-GLIDE is creating measurable positive impact on both the environment and society, contributing to a sustainable and healthier India.</p>
+            </div>
+            
+            <div class="environmental-impact">
+                <div class="impact-card">
+                    <div class="impact-icon blue">💧</div>
+                    <div class="impact-value">2.5 Billion</div>
+                    <div class="impact-unit">Liters Saved Annually</div>
+                    <h3>Water Conservation</h3>
+                    <p>Our systems eliminate the need for water-based flushing, saving precious water resources.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon green">🌳</div>
+                    <div class="impact-value">15,000</div>
+                    <div class="impact-unit">Tons CO₂ Reduced</div>
+                    <h3>Carbon Footprint</h3>
+                    <p>Methane capture and sustainable waste processing significantly reduce greenhouse gas emissions.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <div class="impact-icon emerald">👥</div>
+                    <div class="impact-value">100%</div>
+                    <div class="impact-unit">Elimination Rate</div>
+                    <h3>Open Defecation</h3>
+                    <p>Communities using BIO-GLIDE achieve complete Open Defecation Free (ODF) status.</p>
+                </div>
+            </div>
+            
+            <div class="social-impact">
+                <h3>Social Impact</h3>
+                <p>Beyond environmental benefits, BIO-GLIDE creates positive social change in communities across India.</p>
+                
+                <div class="social-benefits">
+                    <div class="social-benefit">
+                        <div class="social-icon">❤️</div>
+                        <h4>Rural Health Improvement</h4>
+                        <p>Reduced waterborne diseases by 85% in communities using BIO-GLIDE systems.</p>
+                        <div class="social-stat">85% Reduction</div>
+                    </div>
+                    
+                    <div class="social-benefit">
+                        <div class="social-icon">🏆</div>
+                        <h4>Women Empowerment</h4>
+                        <p>Safe, private sanitation facilities improve quality of life and dignity for women.</p>
+                        <div class="social-stat">40% Better Safety</div>
+                    </div>
+                    
+                    <div class="social-benefit">
+                        <div class="social-icon">📈</div>
+                        <h4>Economic Benefits</h4>
+                        <p>Methane by-product provides additional income source for rural households.</p>
+                        <div class="social-stat">₹3000/month</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="impact-metrics">
+                <h3>Our Impact in Numbers</h3>
+                <p>Measurable results from BIO-GLIDE installations across India demonstrate our commitment to positive change.</p>
+                
+                <div class="metrics-grid">
+                    <div class="metric">
+                        <div class="metric-value">2.5M+</div>
+                        <div class="metric-label">People Served</div>
+                        <div class="metric-desc">Daily users benefiting from clean sanitation</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">50,000+</div>
+                        <div class="metric-label">Rural Households</div>
+                        <div class="metric-desc">Families with improved quality of life</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">28</div>
+                        <div class="metric-label">States Covered</div>
+                        <div class="metric-desc">Pan-India presence and impact</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">99.9%</div>
+                        <div class="metric-label">Uptime</div>
+                        <div class="metric-desc">Reliable, maintenance-free operation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact <span class="gradient-text">Us</span></h2>
+                <p>Ready to revolutionize your sanitation infrastructure? Get in touch with our team for partnerships, sales inquiries, or technical support.</p>
+            </div>
+            
+            <div class="contact-info-cards">
+                <div class="contact-info-card green">
+                    <div class="contact-card-icon">📞</div>
+                    <h3>Phone</h3>
+                    <div class="contact-primary">+91-9876543210</div>
+                    <div class="contact-secondary">+91-9876543211</div>
+                    <div class="contact-desc">Mon-Sat, 9:00 AM - 6:00 PM IST</div>
+                </div>
+                
+                <div class="contact-info-card blue">
+                    <div class="contact-card-icon">📧</div>
+                    <h3>Email</h3>
+                    <div class="contact-primary">info@bio-glide.in</div>
+                    <div class="contact-secondary">sales@bio-glide.in</div>
+                    <div class="contact-desc">We respond within 24 hours</div>
+                </div>
+                
+                <div class="contact-info-card purple">
+                    <div class="contact-card-icon">📍</div>
+                    <h3>Office Address</h3>
+                    <div class="contact-primary">123 Green Technology Park</div>
+                    <div class="contact-secondary">New Delhi, India - 110001</div>
+                    <div class="contact-desc">Visit us by appointment</div>
+                </div>
+                
+                <div class="contact-info-card orange">
+                    <div class="contact-card-icon">⏰</div>
+                    <h3>Business Hours</h3>
+                    <div class="contact-primary">Monday - Saturday</div>
+                    <div class="contact-secondary">9:00 AM - 6:00 PM IST</div>
+                    <div class="contact-desc">Sunday: Emergency support only</div>
+                </div>
+            </div>
+            
+            <div class="contact-form-section">
+                <div class="contact-form-container">
+                    <h3>Send us a Message</h3>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Full Name *</label>
+                                <input type="text" id="contactName" name="name" required placeholder="Your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address *</label>
+                                <input type="email" id="contactEmail" name="email" required placeholder="your.email@example.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number</label>
+                                <input type="tel" id="contactPhone" name="phone" placeholder="+91 9876543210">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactOrganization">Organization</label>
+                                <input type="text" id="contactOrganization" name="organization" placeholder="Company or organization name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactSubject">Inquiry Type *</label>
+                            <select id="contactSubject" name="subject" required>
+                                <option value="general">General Inquiry</option>
+                                <option value="sales">Sales & Pricing</option>
+                                <option value="partnership">Partnerships</option>
+                                <option value="support">Technical Support</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactMessage">Message *</label>
+                            <textarea id="contactMessage" name="message" rows="5" required placeholder="Tell us about your requirements, questions, or how we can help you..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <span>Send Message</span>
+                            <span class="btn-icon">📤</span>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-additional-info">
+                    <div class="quick-contact">
+                        <h4>Quick Contact</h4>
+                        <div class="quick-contact-item">
+                            <span class="quick-icon">📞</span>
+                            <div>
+                                <div class="quick-title">Sales Hotline</div>
+                                <div class="quick-info">+91-9876543210</div>
+                            </div>
+                        </div>
+                        <div class="quick-contact-item">
+                            <span class="quick-icon">📧</span>
+                            <div>
+                                <div class="quick-title">Email Support</div>
+                                <div class="quick-info">support@bio-glide.in</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="response-time">
+                        <h4>Response Time</h4>
+                        <div class="response-item">
+                            <span>General Inquiries</span>
+                            <span class="response-value">24 hours</span>
+                        </div>
+                        <div class="response-item">
+                            <span>Sales Quotes</span>
+                            <span class="response-value">4-6 hours</span>
+                        </div>
+                        <div class="response-item">
+                            <span>Technical Support</span>
+                            <span class="response-value">2-4 hours</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emergency-contact">
+                        <h4>Emergency Support</h4>
+                        <p>For urgent technical issues with existing installations:</p>
+                        <div class="emergency-number">+91-9876543299 (24/7)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">🌱</div>
+                        <span class="logo-text">BIO-GLIDE</span>
+                    </div>
+                    <p>Revolutionizing sanitation with eco-friendly, maintenance-free bio-toilet systems. Contributing to a cleaner, healthier India.</p>
+                    
+                    <div class="footer-contact">
+                        <div class="footer-contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>+91-9876543210</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>info@bio-glide.in</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>New Delhi, India</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#how-it-works">How It Works</a></li>
+                            <li><a href="#impact">Our Impact</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">News & Media</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Products & Services</h4>
+                        <ul>
+                            <li><a href="#shop">Household Package</a></li>
+                            <li><a href="#shop">Community Package</a></li>
+                            <li><a href="#shop">Railway Package</a></li>
+                            <li><a href="#contact">Custom Solutions</a></li>
+                            <li><a href="#contact">Maintenance Support</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Installation Guide</a></li>
+                            <li><a href="#">User Manual</a></li>
+                            <li><a href="#features">Technical Specs</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#use-cases">Case Studies</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#contact">Technical Support</a></li>
+                            <li><a href="#">Warranty Information</a></li>
+                            <li><a href="#">Service Centers</a></li>
+                            <li><a href="#contact">Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-newsletter">
+                <div class="newsletter-content">
+                    <h3>Stay Updated</h3>
+                    <p>Get the latest news about BIO-GLIDE innovations and sustainability initiatives.</p>
+                </div>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <span>© 2024 BIO-GLIDE. All rights reserved. | Made in India 🇮🇳</span>
+                </div>
+                
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">🐦</a>
+                    <a href="#" class="social-link">💼</a>
+                    <a href="#" class="social-link">📷</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-certification">
+            <div class="container">
+                <div class="certification-badges">
+                    <span>🏆 Government Approved</span>
+                    <span>•</span>
+                    <span>🌱 Eco-Certified</span>
+                    <span>•</span>
+                    <span>🚆 Railway Ministry Approved</span>
+                    <span>•</span>
+                    <span>🇮🇳 Swachh Bharat Partner</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
